@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>{#advanced_dlg.about_title}</title>
+	<script type="text/javascript" src="../../tiny_mce_popup.js"></script>
+	<script type="text/javascript" src="../../utils/mctabs.js"></script>
+	<script type="text/javascript" src="js/about.js"></script>
+	<LINK rel="stylesheet" type="text/css" href="../../../ayar.css" />
+</head>
+<body id="about" style="display: none;font-family:Ayar, Ayar Takhu, Ayar Kasone, Ayar Nayon, Ayar Wazo, Ayar Wagaung, Ayar TawThaLin, Ayar Typewriter, Tahoma, Arial, Helvetica, serif; text-rendering: optimizeLegibility;">
+		<div class="tabs">
+			<ul>
+				<li id="general_tab"><span><a href="javascript:mcTabs.displayTab('general_tab','general_panel');" onmousedown="return false;">{#advanced_dlg.about_general}</a></span></li>
+				<li id="help_tab" style="display:none"><span><a href="javascript:mcTabs.displayTab('help_tab','help_panel');" onmousedown="return false;">{#advanced_dlg.about_help}</a></span></li>
+				<li id="plugins_tab"><span><a href="javascript:mcTabs.displayTab('plugins_tab','plugins_panel');" onmousedown="return false;">{#advanced_dlg.about_plugins}</a></span></li>
+								<li id="modifier_tab" class="current"><span><a href="javascript:mcTabs.displayTab('modifier_tab','modifier_panel');" onmousedown="return false;">{#advanced_dlg.about_modifier}</a></span></li>
+			</ul>
+		</div>
+
+		<div class="panel_wrapper">
+			<div id="general_panel" class="panel">
+				<h3>{#advanced_dlg.about_title}</h3>
+				<p>Version: <span id="version"></span> (<span id="date"></span>)</p>
+				<p>TinyMCE is a platform independent web based Javascript HTML WYSIWYG editor control released as Open Source under <a href="../../license.txt" target="_blank">LGPL</a>
+				by Moxiecode Systems AB. It has the ability to convert HTML TEXTAREA fields or other HTML elements to editor instances.</p>
+				<p>Copyright &copy; 2003-2008, <a href="http://www.moxiecode.com" target="_blank">Moxiecode Systems AB</a>, All rights reserved.</p>
+				<p>For more information about this software visit the <a href="http://tinymce.moxiecode.com" target="_blank">TinyMCE website</a>.</p>
+
+				<div id="buttoncontainer">
+					<a href="http://www.moxiecode.com" target="_blank"><img src="http://tinymce.moxiecode.com/images/gotmoxie.png" alt="Got Moxie?" border="0" /></a>
+					<a href="http://sourceforge.net/projects/tinymce/" target="_blank"><img src="http://sourceforge.net/sflogo.php?group_id=103281" alt="Hosted By Sourceforge" border="0" /></a>
+					<a href="http://www.freshmeat.net/projects/tinymce" target="_blank"><img src="http://tinymce.moxiecode.com/images/fm.gif" alt="Also on freshmeat" border="0" /></a>
+				</div>
+			</div>
+
+			<div id="plugins_panel" class="panel">
+				<div id="pluginscontainer">
+					<h3>{#advanced_dlg.about_loaded}</h3>
+
+					<div id="plugintablecontainer">
+					</div>
+
+					<p>&nbsp;</p>
+				</div>
+			</div>
+			<div id="modifier_panel" class="panel current">
+					<h3>{#advanced_dlg.about_modifier}</h3>
+<span style="font-family:ayar nayon;font-size:10px;">
+					<p>ဤ အယ်ဒီတာကို လွတ်လပ်ေသာ ေဆာ့ဝဲရင်းြမစ်တစ်ခု အေနြဖင့် <a href="../../license.txt" target="_blank">LGPL</a> လိုင်စင်ြဖင့် ဧရာယူနီကုတ် အုပ်စုမှ ြဖန့်ေဝြခင်းြဖစ်သည်။ </p>
+				<p>မူပိုင်ခွင့်အားလံုးမှာ အထူးြပုြပင် ေရးသားသူ ကိုစည်သူသွင် <a href="http://www.myanmapress.com" target="_blank">(ြမန်မာ့ပရက်စ်)</a> နှင့် ဧရာယူနီကုတ် အဖွဲ့ြဖင့်သာ သက်ဆိုင်သည်။ </p>
+				<p>ြမန်မာစာလက်ကွက်အတွက် ဧရာြမန်မာစာလံုးဆိုင်ရာ ကုတ်ရင်းြမစ်များကို ဧရာယူနီကုတ်အဖွဲ့မှ ပိုင်ဆိုင်သည်။</p>
+				<p>အြခား ရယူသံုးစွဲထားေသာ ေဆာ့ဖ်ဝဲ ရင်းြမစ်များမှာ ၎င်း ရင်းြမစ်များကို ေရးသားသူ အသီးသီးမှ ပိုင်ဆိုင်သည်။ အယ်ဒီတာ အေြကာင်း အေသးစိတ်ကို သိေကာင်းစရာ တွင်ြကည့်ပါ။</p>
+
+				<div id="buttoncontainer">
+					<a href="http://www.ayarunicodegroup.org" target="_blank"><img src="img/AYG.png" alt="ဧရာ ယူနီကုတ်အဖွဲ့" border="0" /></a>
+					<a href="http://www.myanmapress.com" target="_blank"><img src="img/M-logo-thumb.png" alt="ြမန်မာတို့အတွက် ြမန်မာ့ပရက်စ်" border="0" /></a>
+				</div>
+</span>
+			</div>
+
+			<div id="help_panel" class="panel noscroll" style="overflow: visible;">
+				<div id="iframecontainer"></div>
+			</div>
+		</div>
+
+		<div class="mceActionPanel">
+			<input type="button" id="cancel" name="cancel" value="{#close}" onclick="tinyMCEPopup.close();" />
+		</div>
+</body>
+</html>

@@ -1,0 +1,190 @@
+*{font-family:ayar !important}
+.code, code {
+	font-family: "Ayar Typewriter", AyarTypewriter !important;
+}
+
+.quicktags, .search {
+	font: 12px "Ayar Kasone", AyarKasone !important;
+}
+
+#your-profile legend {
+	font-family: "Ayar Nayon", AyarNayon !important;
+	font-size: 22px;
+}
+
+.tablenav .displaying-num {
+	margin-right: 10px;
+	font-size: 12px;
+	font-family: Ayar !important;
+	font-style: italic;
+}
+
+#wphead h1 {
+	font: normal 22px "Ayar Nayon", AyarNayon !important;
+}
+
+#wphead h1.long-title {
+	font: normal 18px "Ayar Nayon", AyarNayon !important;
+}
+
+#adminmenu .wp-submenu a {
+	font: normal 11px/18px "Ayar Wagaung", AyarWagaung !important;
+}
+
+#adminmenu a.menu-top,
+#adminmenu .wp-submenu-head {
+	font: normal 13px/18px "Ayar Kasone", AyarKasone !important;
+}
+
+/* end side admin menu */
+
+/* comments/plugins bubble in menu */
+#adminmenu #awaiting-mod,
+#adminmenu span.update-plugins,
+#sidemenu li a span.update-plugins {
+	font-family: Ayar !important;
+}
+
+/* comments bubble */
+.post-com-count-wrapper {
+	min-width: 22px;
+	font-family: Ayar !important;
+}
+
+/* Admin Footer */
+#footer {
+	font-family: "Ayar Nayon", AyarNayon !important;
+}
+
+#footer,
+#footer a {
+	font-size: 12px;
+	font-family: "Ayar Nayon", AyarNayon !important;
+	font-style: italic;
+}
+
+#footer p {
+	font-family: "Ayar Nayon", AyarNayon !important;
+}
+
+p.help,
+p.description,
+span.description,
+.form-wrap p {
+	font-family: "Ayar Wagaung", AyarNayon !important;
+}
+
+.howto {
+	font-family: "Ayar Wagaung", AyarNayon !important;
+}
+
+table.diff td, table.diff th {
+	font-family: Ayar !important;
+}
+
+.tool-box .title {
+	font: 18px/24px "Ayar Nayon", AyarNayon !important;
+}
+
+#screen-options-link-wrap,
+#contextual-help-link-wrap {
+	font-family: "Ayar Wagaung", AyarWagaung !important;
+}
+
+.inline-edit-row fieldset span.title,
+.inline-edit-row fieldset span.checkbox-title {
+	font-family: "Ayar Nayon", AyarNayon !important;
+}
+
+.inline-edit-row fieldset ul.cat-checklist label,
+.inline-edit-row .catshow,
+.inline-edit-row .cathide,
+.inline-edit-row #bulk-titles div {
+	font-family: "Ayar Wagaung", AyarWagaung !important;
+}
+
+#utc-time, #local-time {
+	font-family: "Ayar Wagaung", AyarWagaung !important;
+}
+
+h2 .nav-tab {
+	font: italic normal normal 24px/35px "Ayar Wagaung", AyarWagaung !important;
+}
+/*global_css*/
+body,
+td,
+textarea,
+input,
+select {
+	font-family: "Ayar Wagaung", AyarWagaung !important;
+}
+.wrap h2 {
+	font: italic normal normal 24px/29px "Ayar Kasone", AyarKasone !important;
+}
+/*Dashboard*/
+#dashboard-widgets {font-family:ayar !important;}
+#dashboard-widgets h4 {
+	font-family: "Ayar Takhu", AyarTakhu !important;
+}
+#dashboard_right_now p.sub {
+	font-family: "Ayar Takhu", AyarTakhu !important;
+}
+#dashboard_right_now td.b {
+	font-family: "Ayar Takhu", AyarTakhu !important;
+}
+#dashboard_recent_comments .comment-meta .approve {
+	font-family: "Ayar Wagaung", AyarWagaung !important;
+}
+#dashboard_quick_press h4 {
+	font-family: "Ayar Wagaung", AyarWagaung !important;
+}
+#dashboard_recent_drafts h4 abbr {
+	font-family: "Ayar Wagaung", AyarWagaung !important;
+}
+a.rsswidget {
+	font-family: "Ayar Takhu", AyarTakhu !important;
+}
+#dashboard_plugins h4 {
+	font-family: "Ayar Wagaung", AyarWagaung !important;
+}
+
+#dashboard_plugins h5 {
+	font-family: "Ayar Takhu", AyarTakhu !important;
+}
+/*Login CSS*/
+.button-primary {
+	font-family: "Ayar Wagaung", AyarWagaung !important;
+}
+/*Media*/
+.media-upload-form label.form-help, td.help {
+	font-family: "Ayar Takhu", AyarTakhu !important;
+}
+#media-upload p.help,
+#media-upload label.help {
+	font-family: "Ayar Wagaung", AyarWagaung!important;
+}
+#gallery-settings .title,
+h3.media-title,
+h4.media-sub-title {
+	font-family: "Ayar Wagaung", AyarWagaung! !important;
+}
+/*install css*/
+.submit input, .button, .button-secondary {
+	font-family: "Ayar Takhu", AyarTakhu !important;
+}
+/*press this*/
+
+/* Categories */
+
+.category-add input {
+	font-family: "Ayar Takhu", AyarTakhu !important;
+}
+
+.category-add select {
+	font-family: "Ayar Takhu", AyarTakhu !important;
+}
+
+/*Theme Editor*/
+#template textarea {
+	font-family: "Ayar Typewriter", AyarTypewriter !important;
+}

@@ -1,0 +1,54 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ayar-web-kit.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-26 23:45+0630\n"
+"PO-Revision-Date: 2011-02-27 00:03+0630\n"
+"Last-Translator: Sithu Thwin <frisithu82@gmail.com>\n"
+"Language-Team: myanmapress.com <frisithu82@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__\n"
+"X-Poedit-Basepath: D:\\WEB Kits\\xampp\\htdocs\\wp-content\\plugins\\\n"
+"X-Poedit-Language: Burmese\n"
+"X-Poedit-Country: MYANMAR\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ayar-web-kit\n"
+
+#: ayar-web-kit/a2z.php:125
+#: ayar-web-kit/a2z.php:133
+#, php-format
+msgid "View posts for %1$s %2$s"
+msgstr ""
+
+#: ayar-web-kit/a2z.php:375
+#: ayar-web-kit/a2z.php:380
+msgid "Mon Calendar"
+msgstr "မွန် ြပက္ခဒိန်"
+
+#: ayar-web-kit/a2z.php:390
+#: ayar-web-kit/a2z.php:395
+msgid "Burmese Calendar"
+msgstr "ြမန်မာ ြပက္ခဒိန်"
+
+#: ayar-web-kit/ayar-admin-theme.php:2
+msgid "Green"
+msgstr "အစိမ်းေရာင်"
+
+#: ayar-web-kit/mceoptions.php:10
+msgid "Cheatin&#8217; uh?"
+msgstr "လူလည်မကျနဲ့ေလ ?"
+
+#: ayar-web-kit/mceoptions.php:60
+msgid "Options saved."
+msgstr "ေရွးချယ်မှုများကို သိမ်းြပီးြပီ"
+
+#: ayar-web-kit/mceoptions.php:166
+msgid "HELP"
+msgstr "အကူအညီ"
+
+#: ayar-web-kit/mceoptions.php:167
+msgid "I am not sure all plugins and button will work in comment form. If you want to add your own tinyMCE plugin to comment form, Just put your plugin folder into \"tiny_mce/plugins\" folder, your plugin will show in detected plugins list. If your plugin have a button, insert your button name in \"buttons in use\" field"
+msgstr "မှတ်ချက်ေပးရန် ပံုစံတွင် ပလပ်အင်အားလံုး အလုပ်လုပ်မလုပ် မေသချာပါ။ ကိုယ်ပိုင် tinyMCE ပလပ်အင်ကို မှတ်ချက်ေပးရန်ပံုစံတွင်ထည့်သွင်းလိုပါက သင့် ပလပ်အင်ကို \"tiny_mce/plugins\" သို့ ြဖည့်သွင်းေပးပါ။ ေတွ့ရှိေသာ ပလပ်အင် စာရင်းတွင် အလုိလို ေဖာ်ြပေပးပါမည်။ သင့် ပလပ်အင်တွင် ခလုပ်ပါရှိပါက \"သံုးစွဲထားေသာ ခလုပ်များ\" ြဖည့်သွင်းရန် ကွက်လပ်တွင် ြဖည့်သွင်းေပးပါ/"
+
